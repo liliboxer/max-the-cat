@@ -10,6 +10,7 @@ Content-Length: ${Buffer.from(data).length}
 Content-Type: ${contentType}
 
 ${data}`;
+
 };
 
 module.exports = { makeResponse };
